@@ -1,0 +1,41 @@
+{
+  "name": "discord-game-bot",
+  "version": "1.0.0",
+  "description": "Um bot de Discord focado em jogos, incluindo Uno e mini-jogos de trivia e adivinhação de números.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "games",
+    "uno",
+    "minigames",
+    "trivia",
+    "guess-the-number"
+  ],
+  "author": "Desenvolvedor de Jogos Discord",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/discord-game-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seu-usuario/discord-game-bot/issues"
+  },
+  "homepage": "https://github.com/seu-usuario/discord-game-bot#readme"
+}
+
